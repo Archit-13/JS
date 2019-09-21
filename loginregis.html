@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Javascript - Assignment 1 </title>
@@ -44,10 +45,16 @@
             }
             
         </script>
-        
+        <style>
+    		body{
+    		background-image: url("me.png");
+    	}
+
+    	</style>
     </head>
 
     <body>
+    	
         Javascript - Assignment 1
         <br><br/>
         First Name: <input type="text" name="fname" id="fname" /><br/><br/>
@@ -56,8 +63,12 @@
        	Email: <input type="text" name="email" id="email" /><br/><br/>
         University: <input type="text" name="uni" id="uni" /><br/><br/>
         Program: <input type="text" name="program" id="program" /><br/><br/>
-        <button onclick="addRow();">Add Row</button><br/><br/>
+        <button onclick="addRow();">Add to the List</button><br/><br/>
 
+        <style type="text/css">
+  			table    { border:ridge 5px red; background-color:blue; color:black; }
+  			
+		</style>
         <table border="1">
             
             <tr>
